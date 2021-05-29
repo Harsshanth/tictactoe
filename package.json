@@ -1,0 +1,29 @@
+{
+  "name": "tictactoe",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "fix-parcel": "npx npm-force-resolutions && npm i && npm i",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.14",
+    "babel-preset-nano-react-app": "^0.1.0",
+    "parcel": "^1.12.4"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ]
+  }
+}
